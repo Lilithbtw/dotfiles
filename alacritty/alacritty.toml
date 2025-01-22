@@ -1,0 +1,31 @@
+
+[general]
+live_config_reload = true
+
+import = [
+    "~/.config/alacritty/themes/themes/aura.toml"
+]
+
+[env]
+
+[window]
+	padding = {x = 15, y = 3}
+
+[scrolling]
+	multiplier = 1
+[font]
+	normal = { family = "JetBrainsMono", style = "Regular" }
+	bold = { family = "JetBrainsMono", style = "Bold" }
+	italic = { family = "JetBrainsMono", style = "Italic" }
+	bold_italic = { family = "JetBrainsMono", style = "BoldItalic" }
+	
+	size = 11
+
+[selection]
+	save_to_clipboard = false
+
+[cursor]
+
+	style = {shape = "Beam", blinking = "On"}
+	thickness = 0.25
+	unfocused_hollow = false
